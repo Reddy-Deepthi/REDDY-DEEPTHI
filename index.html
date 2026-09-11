@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddy Deepthi | ECE & IT Professional Portfolio</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Dynamic Canvas Background -->
+    <canvas id="cyber-bg"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <!-- Custom logo "A" emblem with cyber style -->
+            <a href="#home" class="logo">
+                <div class="logo-emblem">
+                    <span>A</span>
+                </div>
+                <div class="logo-text">REDDY<span>DEEPTHI</span></div>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">#home</a></li>
+                    <li><a href="#objective" class="nav-link">#objective</a></li>
+                    <li><a href="#education" class="nav-link">#education</a></li>
+                    <li><a href="#projects" class="nav-link">#projects</a></li>
+                    <li><a href="#skills" class="nav-link">#skills</a></li>
+                    <li><a href="#certifications" class="nav-link">#certs_awards</a></li>
+                    <li><a href="#testimonials" class="nav-link">#testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">#contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="assets/resume.pdf" download class="btn btn-outline" target="_blank">
+                    <i class="fa-solid fa-download"></i> <span>Download Resume</span>
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="container hero-container">
+                <div class="hero-badge">
+                    <span class="status-dot"></span> SYSTEM ACTIVE // PORTFOLIO v2.0
+                </div>
+                <h1 class="hero-title">REDDY DEEPTHI</h1>
+                <h2 class="hero-subtitle">Electronics & Communication Engineer | IT Specialist</h2>
+                <p class="hero-desc">
+                    Seeking an entry-level IT position where I can apply technical skills, data analysis, and problem-solving abilities to contribute to organizational growth and process automation.
+                </p>
+
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-terminal"></i> View Projects</a>
+                    <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-envelope"></i> Contact Me</a>
+                </div>
+
+                <div class="terminal-box">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="terminal-title">sys_info.sh</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">deepthi@sys:~ $</span> <span class="command">cat status.log</span></p>
+                        <p class="response">> Degree: B.Tech - ECE (2022-2026) | CGPA: 8.19</p>
+                        <p class="response">> Focus: Data Analysis, Process Automation, AI/ML Basics, IoT</p>
+                        <p class="response">> Contact: deepthireddy0479@gmail.com | +91 80745 09651</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Objective Section -->
+        <section id="objective" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 01</span>
+                    <h2 class="section-title">Career Objective</h2>
+                </div>
+                <div class="glass-card content-card">
+                    <div class="card-icon"><i class="fa-solid fa-crosshair"></i></div>
+                    <p class="text-block">
+                        Motivated and enthusiastic Electronics and Communication Engineering (ECE) graduate seeking an entry-level IT position where I can apply my technical skills, problem-solving abilities, and eagerness to learn new technologies. Looking for an opportunity to contribute to organizational growth while building a successful career in the IT industry.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 02</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+                <div class="timeline">
+                    <!-- B.Tech -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <h3>B.Tech - Electronics and Communication Engineering</h3>
+                                <span class="badge">2022 - 2026</span>
+                            </div>
+                            <h4 class="institution">Rise Krishna Sai Gandhi Group of Institutions, Ongole</h4>
+                            <div class="score"><i class="fa-solid fa-chart-line"></i> CGPA: <strong>8.19</strong></div>
+                        </div>
+                    </div>
+
+                    <!-- Class 12 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <h3>Class 12 - Board of Intermediate Education, Andhra Pradesh</h3>
+                                <span class="badge">2020 - 2022</span>
+                            </div>
+                            <h4 class="institution">Narayana Junior College, Ongole</h4>
+                            <div class="score"><i class="fa-solid fa-award"></i> Marks: <strong>942</strong></div>
+                        </div>
+                    </div>
+
+                    <!-- Class 10 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <h3>Class 10 - Board of Secondary Education, Andhra Pradesh</h3>
+                                <span class="badge">2019 - 2020</span>
+                            </div>
+                            <h4 class="institution">Sri Krishna Sai High School, Ongole</h4>
+                            <div class="score"><i class="fa-solid fa-award"></i> Marks: <strong>586</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 03</span>
+                    <h2 class="section-title">Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <i class="fa-solid fa-microchip project-icon"></i>
+                            <span class="project-type">Hardware & IoT</span>
+                        </div>
+                        <h3 class="project-title">Design Analysis and Fabrication of Crack Detection Robot For Railway Track</h3>
+                        <ul class="project-details">
+                            <li><i class="fa-solid fa-angle-right"></i> Built a railway track monitoring robot capable of detecting cracks and obstacles.</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Implemented sensor-based fault detection and alert generation.</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Improved inspection efficiency through automated monitoring.</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Utilized Arduino and IoT technologies for data collection and communication.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Arduino</span>
+                            <span>IoT</span>
+                            <span>Sensors</span>
+                            <span>Automation</span>
+                            <span>Hardware</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 04</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    
+                    <div class="skill-category glass-card">
+                        <h3><i class="fa-solid fa-code"></i> Programming & Languages</h3>
+                        <div class="skill-pills">
+                            <span class="pill">Python</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fa-solid fa-database"></i> Data Analysis & Processing</h3>
+                        <div class="skill-pills">
+                            <span class="pill">Data Analysis</span>
+                            <span class="pill">Engineering Data Analysis</span>
+                            <span class="pill">Data Cleaning</span>
+                            <span class="pill">Data Processing</span>
+                            <span class="pill">Structured & Semi-Structured Data</span>
+                            <span class="pill">Data Visualization</span>
+                            <span class="pill">Exploratory Data Analysis (EDA)</span>
+                            <span class="pill">Statistical Analysis</span>
+                            <span class="pill">Data Validation</span>
+                            <span class="pill">KPI Analysis</span>
+                            <span class="pill">Data Interpretation</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fa-solid fa-brain"></i> AI & Machine Learning</h3>
+                        <div class="skill-pills">
+                            <span class="pill">AI & Machine Learning Basics</span>
+                            <span class="pill">Anomaly Detection</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fa-solid fa-gears"></i> Systems & Workflow</h3>
+                        <div class="skill-pills">
+                            <span class="pill">Workflow Development</span>
+                            <span class="pill">Process Automation</span>
+                            <span class="pill">Problem Solving</span>
+                            <span class="pill">Documentation</span>
+                            <span class="pill">Cross-Functional Collaboration</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Awards Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 05</span>
+                    <h2 class="section-title">Certifications & Achievements</h2>
+                </div>
+                <div class="dual-grid">
+                    <!-- Certifications -->
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-certificate"></i>
+                            <h3>Certifications</h3>
+                        </div>
+                        <ul class="styled-list">
+                            <li>
+                                <strong>Introduction to Internet of Things</strong>
+                                <span>Issued by NPTEL</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Achievements -->
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-trophy"></i>
+                            <h3>Awards & Achievements</h3>
+                        </div>
+                        <ul class="styled-list">
+                            <li>
+                                <strong>Academic 2nd Topper of the Year - 2023</strong>
+                                <span>RISE Krishna Sai Gandhi Group of Institutions</span>
+                            </li>
+                            <li>
+                                <strong>Intra-College Quiz Competition Participant</strong>
+                                <span>Lakshya Fest, Lakireddy Balireddy College of Engineering</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 06</span>
+                    <h2 class="section-title">Testimonials</h2>
+                </div>
+                
+                <div class="carousel-wrapper glass-card">
+                    <div class="carousel-container" id="carousel-container">
+                        
+                        <div class="testimonial-slide active">
+                            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                            <p class="quote-text">
+                                Deepthi demonstrates strong technical skills and an impressive ability to tackle complex engineering problems. Her initiative in data analysis and robotics projects highlights her capability as a quick learner and a dedicated professional.
+                            </p>
+                            <div class="author-info">
+                                <h4>Academic Mentor</h4>
+                                <span>ECE Department</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                            <p class="quote-text">
+                                An exceptional team member who consistently delivers structured solutions. Deepthi's analytical mindset, combined with her focus on process automation, makes her an asset to any technical team.
+                            </p>
+                            <div class="author-info">
+                                <h4>Project Supervisor</h4>
+                                <span>IoT & Embedded Systems Lab</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-controls">
+                        <button id="prev-btn" class="ctrl-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="carousel-dots" id="carousel-dots"></div>
+                        <button id="next-btn" class="ctrl-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// 07</span>
+                    <h2 class="section-title">Contact</h2>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="glass-card contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Feel free to reach out for opportunities, collaborations, or inquiries.</p>
+                        
+                        <div class="info-list">
+                            <a href="mailto:deepthireddy0479@gmail.com" class="info-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>deepthireddy0479@gmail.com</span>
+                            </a>
+                            <a href="tel:+918074509651" class="info-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+91 80745 09651</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/deepthi-reddy-159716286/" target="_blank" rel="noopener noreferrer" class="info-item">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <span>LinkedIn Profile</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="glass-card contact-form-wrapper">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">NAME</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">MESSAGE</label>
+                                <textarea id="message" rows="4" required placeholder="Type your message here..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="logo-emblem inline-logo"><span>A</span></div>
+                <p>Designed & Developed for <strong>Reddy Deepthi</strong></p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; <span id="year"></span> Reddy Deepthi. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
